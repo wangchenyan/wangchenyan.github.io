@@ -1,0 +1,21 @@
+{
+  "name": "wangchenyan-home-page",
+  "version": "1.0.0",
+  "description": "wangchenyan home page",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangchenyan/wangchenyan.github.io.git"
+  },
+  "keywords": [
+    "wangchenyan",
+    "HomePage"
+  ],
+  "author": "wangchenyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangchenyan/wangchenyan.github.io/issues"
+  },
+  "homepage": "https://github.com/wangchenyan/wangchenyan.github.io"
+}
