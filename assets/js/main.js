@@ -104,5 +104,7 @@ btnMobileMenu.addEventListener('click', function () {
 });
 
 function wechat() {
-    alert('微信：wangchenyan-top（注明来意）')
+    let wx = 'wangchenyan-top';
+    alert('微信号 ' + wx + ' 已复制！\n注明来意!');
+    navigator.clipboard.writeText(wx).catch();
 }
