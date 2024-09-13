@@ -102,3 +102,7 @@ btnMobileMenu.addEventListener('click', function () {
 	btnMobileMenu.classList.toggle('animated');
 	btnMobileMenu.classList.toggle('fadeIn');
 });
+
+function wechat() {
+    alert('微信：wangchenyan-top（注明来意）')
+}
