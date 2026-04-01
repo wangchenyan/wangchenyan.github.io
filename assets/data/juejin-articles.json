@@ -6,7 +6,7 @@
       "article_id": "7410420138309894159",
       "title": "【HarmonyOS】听说你还在用 router 做页面路由？",
       "brief_content": "我们知道鸿蒙上使用 router 模块进行页面跳转，转眼几个月过去了，router 已经被标记为「不推荐」了，官方推荐使用 Navigation，今天和大家一起学习一下。",
-      "cover_image": "https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/68196b0345f74648b19222cc59836257~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg546L5pmo5b2m:q75.awebp?rk3s=f64ab15b&x-expires=1775640744&x-signature=VwMsp9lR1C%2FMFYtanKeP%2FPvE9FE%3D",
+      "cover_image": "https://p6-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/68196b0345f74648b19222cc59836257~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg546L5pmo5b2m:q75.awebp?rk3s=f64ab15b&x-expires=1775641635&x-signature=QZklTlV9DLx6KHdyGNPvatRdOtI%3D",
       "view_count": 3336,
       "digg_count": 29,
       "comment_count": 2,
@@ -39,7 +39,7 @@
       "article_id": "7294072229003952143",
       "title": "重生！入门级开源音乐播放器APP —— 波尼音乐",
       "brief_content": "不知道是否还有人记得，7年前的那个 「Android开源在线音乐播放器——波尼音乐」？在网络上找到了一个百度开放的在线音乐 API，勉强实现了本地 + 网络播放能力。",
-      "cover_image": "https://p9-juejin-sign.byteimg.com/tos-cn-i-k3u1fbpfcp/742f899132c34b3db4f1bc3ced32ff62~tplv-k3u1fbpfcp-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg546L5pmo5b2m:q75.awebp?rk3s=f64ab15b&x-expires=1775640744&x-signature=Qz4pXQG1%2FslTW8tUUyJADuEAyoo%3D",
+      "cover_image": "https://p9-juejin-sign.byteimg.com/tos-cn-i-k3u1fbpfcp/742f899132c34b3db4f1bc3ced32ff62~tplv-k3u1fbpfcp-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg546L5pmo5b2m:q75.awebp?rk3s=f64ab15b&x-expires=1775641635&x-signature=J7sWmn9g%2BsrCdhlrEonPZcLxj8E%3D",
       "view_count": 18374,
       "digg_count": 83,
       "comment_count": 44,
@@ -73,7 +73,7 @@
       "title": "记一次 Android 线上 OOM 的排查过程",
       "brief_content": "一天，后台统计到线上有大量 OOM 崩溃，小王收到老板的紧急指令，立即排查！小王心想，这还不简单，待我看看崩溃堆栈，分分钟解决。于是小王不慌不忙的打开崩溃后台，一看傻眼了…",
       "cover_image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/39ce17896e3f4fc8a6bcc0a1c0ec8c35~tplv-k3u1fbpfcp-watermark.image?",
-      "view_count": 5406,
+      "view_count": 5407,
       "digg_count": 25,
       "comment_count": 6,
       "ctime": "1642770526",
@@ -113,5 +113,5 @@
       "url": "https://juejin.cn/post/6997671811026518030"
     }
   ],
-  "updated_at": "2026-04-01T09:32:24.401Z"
+  "updated_at": "2026-04-01T09:47:16.123Z"
 }
