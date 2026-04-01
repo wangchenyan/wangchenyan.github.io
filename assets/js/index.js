@@ -138,7 +138,7 @@ function renderProjects(repos) {
                 <p class="project-description">${repo.description || '暂无描述'}</p>
                 <div class="project-links">
                     <a href="${repo.html_url}" class="project-link" target="_blank">查看源码 →</a>
-                    ${repo.homepage ? `<a href="${repo.homepage}" class="project-link" target="_blank">在线演示 →</a>` : ''}
+                    ${repo.homepage ? `<a href="${repo.homepage}" class="project-link" target="_blank">项目介绍 →</a>` : ''}
                 </div>
             </div>
         </div>
