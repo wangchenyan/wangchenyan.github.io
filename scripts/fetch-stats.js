@@ -32,7 +32,7 @@ async function fetchGitHubStats() {
         }
 
         const reposResponse = await fetch(
-            `https://api.github.com/users/${GITHUB_USERNAME}`,
+            `https://api.github.com/users/${GITHUB_USERNAME}/repos?per_page=100&sort=updated`,
             { headers }
         );
 
