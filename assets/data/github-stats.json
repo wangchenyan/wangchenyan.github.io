@@ -1,40 +1,70 @@
 {
   "username": "wangchenyan",
-  "public_repos": 20,
-  "followers": 100,
-  "following": 50,
-  "total_stars": 150,
+  "public_repos": 39,
+  "followers": 252,
+  "following": 9,
+  "total_stars": 4727,
   "top_repos": [
     {
-      "name": "MusicPlayer",
-      "description": "功能完善的本地音乐播放器，支持歌词同步显示、均衡器调节、睡眠定时等功能",
-      "stars": 45,
-      "forks": 12,
+      "name": "ponymusic",
+      "description": "An Android online music player like NetEase Cloud Music, based on Media3 and ExoPlayer",
+      "stars": 2833,
+      "forks": 508,
       "language": "Kotlin",
-      "html_url": "https://github.com/wangchenyan/MusicPlayer",
-      "homepage": "",
-      "updated_at": "2025-03-30T00:00:00Z"
+      "html_url": "https://github.com/wangchenyan/ponymusic",
+      "homepage": "https://juejin.cn/post/7294072229003952143",
+      "updated_at": "2026-03-31T05:54:59Z"
     },
     {
-      "name": "WeatherApp",
-      "description": "基于 Jetpack Compose 开发的天气应用，界面简洁美观",
-      "stars": 38,
-      "forks": 8,
-      "language": "Kotlin",
-      "html_url": "https://github.com/wangchenyan/WeatherApp",
-      "homepage": "",
-      "updated_at": "2025-03-28T00:00:00Z"
+      "name": "lrcview",
+      "description": "Android beautiful draggable lyric view library",
+      "stars": 721,
+      "forks": 120,
+      "language": "Java",
+      "html_url": "https://github.com/wangchenyan/lrcview",
+      "homepage": "https://juejin.im/post/6844903759420588046",
+      "updated_at": "2026-03-13T10:45:53Z"
     },
     {
-      "name": "GitHubClient",
-      "description": "第三方 GitHub 客户端，支持代码仓库浏览、Issue 管理、代码搜索等功能",
-      "stars": 32,
-      "forks": 6,
-      "language": "Kotlin",
-      "html_url": "https://github.com/wangchenyan/GitHubClient",
+      "name": "ponyexpress",
+      "description": "Android express app use zxing&volley&gson&material design",
+      "stars": 274,
+      "forks": 119,
+      "language": "Java",
+      "html_url": "https://github.com/wangchenyan/ponyexpress",
+      "homepage": "https://juejin.im/post/6844903759059894280",
+      "updated_at": "2026-01-13T08:12:26Z"
+    },
+    {
+      "name": "wan-harmony",
+      "description": "鸿蒙版「玩 Android」客户端",
+      "stars": 248,
+      "forks": 53,
+      "language": "TypeScript",
+      "html_url": "https://github.com/wangchenyan/wan-harmony",
       "homepage": "",
-      "updated_at": "2025-03-25T00:00:00Z"
+      "updated_at": "2026-03-17T01:53:41Z"
+    },
+    {
+      "name": "html-text",
+      "description": "Android RichText 富文本解析器，支持网络图片，图片和链接点击事件",
+      "stars": 196,
+      "forks": 38,
+      "language": "Java",
+      "html_url": "https://github.com/wangchenyan/html-text",
+      "homepage": "https://juejin.im/post/6844903759424798728",
+      "updated_at": "2026-01-17T03:35:02Z"
+    },
+    {
+      "name": "slidingclose",
+      "description": "Android 向右滑动关闭界面(仿iOS)",
+      "stars": 88,
+      "forks": 25,
+      "language": "Java",
+      "html_url": "https://github.com/wangchenyan/slidingclose",
+      "homepage": "https://juejin.im/post/6844903759055683598",
+      "updated_at": "2025-11-29T02:14:50Z"
     }
   ],
-  "updated_at": "2025-03-30T00:00:00.000Z"
+  "updated_at": "2026-04-01T09:32:22.687Z"
 }

@@ -1,40 +1,117 @@
 {
   "user_id": "2313028193754168",
-  "total_articles": 30,
+  "total_articles": 10,
   "articles": [
     {
-      "article_id": "123456789",
-      "title": "Android Jetpack Compose 入门指南",
-      "brief_content": "本文将带你了解 Jetpack Compose 的基础知识，包括声明式 UI、状态管理、布局系统等核心概念...",
-      "cover_image": "",
-      "view_count": 2500,
-      "digg_count": 128,
-      "comment_count": 32,
-      "ctime": "1711800000",
-      "url": "https://juejin.cn/post/123456789"
+      "article_id": "7410420138309894159",
+      "title": "【HarmonyOS】听说你还在用 router 做页面路由？",
+      "brief_content": "我们知道鸿蒙上使用 router 模块进行页面跳转，转眼几个月过去了，router 已经被标记为「不推荐」了，官方推荐使用 Navigation，今天和大家一起学习一下。",
+      "cover_image": "https://p9-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/68196b0345f74648b19222cc59836257~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg546L5pmo5b2m:q75.awebp?rk3s=f64ab15b&x-expires=1775640744&x-signature=VwMsp9lR1C%2FMFYtanKeP%2FPvE9FE%3D",
+      "view_count": 3336,
+      "digg_count": 29,
+      "comment_count": 2,
+      "ctime": "1725455291",
+      "url": "https://juejin.cn/post/7410420138309894159"
     },
     {
-      "article_id": "123456790",
-      "title": "Kotlin 协程实战：从入门到精通",
-      "brief_content": "协程是 Kotlin 中最强大的特性之一，本文将深入讲解协程的原理和在实际项目中的应用...",
-      "cover_image": "",
-      "view_count": 3200,
-      "digg_count": 156,
-      "comment_count": 45,
-      "ctime": "1711200000",
-      "url": "https://juejin.cn/post/123456790"
+      "article_id": "7340307629891616808",
+      "title": "鸿蒙即将抛弃Android，你还不来学习一下？",
+      "brief_content": "最近移动开发圈子里，鸿蒙可谓出尽了风头，先是宣布即将发布的Harmony OS Next将完全剥离Android代码，也就是不再兼容Android，化身为纯血的鸿蒙，紧接着又启动了鸿蒙生态千帆启航。",
+      "cover_image": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3b8e0dfb3469401fb46230c2732beb6a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=641&h=640&s=47134&e=png&b=231816",
+      "view_count": 10249,
+      "digg_count": 76,
+      "comment_count": 57,
+      "ctime": "1709110772",
+      "url": "https://juejin.cn/post/7340307629891616808"
     },
     {
-      "article_id": "123456791",
-      "title": "Android 性能优化最佳实践",
-      "brief_content": "性能优化是 Android 开发中的重要环节，本文总结了常见的性能优化技巧和工具使用方法...",
-      "cover_image": "",
-      "view_count": 1800,
-      "digg_count": 89,
-      "comment_count": 23,
-      "ctime": "1710600000",
-      "url": "https://juejin.cn/post/123456791"
+      "article_id": "7317183162870087716",
+      "title": "鸿蒙开发入门之让 httpRequest 支持 Cookie",
+      "brief_content": "要说最近前端技术圈什么最🔥，那一定非「遥遥领先」的 Harmony OS 莫属，本着对新技术的追求精神，咱们也来尝试一下。思来想去，决定用鸿蒙重写一下之前的Compose 版本「玩Android」。",
+      "cover_image": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cccf8610794d4e21931392bd6e4db2cf~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=641&h=640&s=47134&e=png&b=231816",
+      "view_count": 1913,
+      "digg_count": 12,
+      "comment_count": 12,
+      "ctime": "1703674534",
+      "url": "https://juejin.cn/post/7317183162870087716"
+    },
+    {
+      "article_id": "7294072229003952143",
+      "title": "重生！入门级开源音乐播放器APP —— 波尼音乐",
+      "brief_content": "不知道是否还有人记得，7年前的那个 「Android开源在线音乐播放器——波尼音乐」？在网络上找到了一个百度开放的在线音乐 API，勉强实现了本地 + 网络播放能力。",
+      "cover_image": "https://p9-juejin-sign.byteimg.com/tos-cn-i-k3u1fbpfcp/742f899132c34b3db4f1bc3ced32ff62~tplv-k3u1fbpfcp-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg546L5pmo5b2m:q75.awebp?rk3s=f64ab15b&x-expires=1775640744&x-signature=Qz4pXQG1%2FslTW8tUUyJADuEAyoo%3D",
+      "view_count": 18374,
+      "digg_count": 83,
+      "comment_count": 44,
+      "ctime": "1698312963",
+      "url": "https://juejin.cn/post/7294072229003952143"
+    },
+    {
+      "article_id": "7217665415709933625",
+      "title": "跨平台还能怎么玩？试试 Kotlin Multiplatform Mobile",
+      "brief_content": "说到跨平台，我们很容易联想到 ReactNative、Flutter 等业内比较有名的框架，通过在不同平台复用一套代码，从而提高生产力，同时保证各端逻辑的一致性，他们确实做到了。",
+      "cover_image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/be2aee3504fe4f2ca1c76598a7833719~tplv-k3u1fbpfcp-watermark.image?",
+      "view_count": 6506,
+      "digg_count": 41,
+      "comment_count": 13,
+      "ctime": "1680502034",
+      "url": "https://juejin.cn/post/7217665415709933625"
+    },
+    {
+      "article_id": "7213252349560668216",
+      "title": "你真的了解 ImageView 的 adjustViewBounds 属性吗？",
+      "brief_content": "在 Android 开发中，如果我们不确定图片的宽高，又想让 ImageView 以固定的宽度或高度显示，且图片宽高比保持不变，我们很容易想到 adjustViewBounds 这个属性。",
+      "cover_image": "https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/24ecdc4acf4646dabff3a2e89eb85c01~tplv-k3u1fbpfcp-watermark.image?",
+      "view_count": 4121,
+      "digg_count": 37,
+      "comment_count": 14,
+      "ctime": "1679470320",
+      "url": "https://juejin.cn/post/7213252349560668216"
+    },
+    {
+      "article_id": "7055644963706503204",
+      "title": "记一次 Android 线上 OOM 的排查过程",
+      "brief_content": "一天，后台统计到线上有大量 OOM 崩溃，小王收到老板的紧急指令，立即排查！小王心想，这还不简单，待我看看崩溃堆栈，分分钟解决。于是小王不慌不忙的打开崩溃后台，一看傻眼了…",
+      "cover_image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/39ce17896e3f4fc8a6bcc0a1c0ec8c35~tplv-k3u1fbpfcp-watermark.image?",
+      "view_count": 5406,
+      "digg_count": 25,
+      "comment_count": 6,
+      "ctime": "1642770526",
+      "url": "https://juejin.cn/post/7055644963706503204"
+    },
+    {
+      "article_id": "7042201901399539748",
+      "title": "听说你还不懂依赖任务启动框架？带你撸一个",
+      "brief_content": "我们在开发应用的时候，一般都会引入 SDK，而大部分 SDK 都要求我们在 Application 中初始化，当我们引入的 SDK 越来越多，就会出现 Application 越来越长。",
+      "cover_image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5585b44c85264b4a9037d8b447fb66ed~tplv-k3u1fbpfcp-watermark.image?",
+      "view_count": 4706,
+      "digg_count": 30,
+      "comment_count": 3,
+      "ctime": "1639640463",
+      "url": "https://juejin.cn/post/7042201901399539748"
+    },
+    {
+      "article_id": "7026540580788240415",
+      "title": "使用 CloseableReference 优雅的释放对象，来自 Fresco",
+      "brief_content": "今天要介绍的是Fresco基于Bitmap复用逻辑上抽象出的，通用的、安全的可自动释放的引用，官方文档也有专门的页面介绍「可关闭的引用」，但是发现大家真正使用的并不多，因此觉得有必要再介绍一下。",
+      "cover_image": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/16341e3e49c04980aaa674fe77fc238c~tplv-k3u1fbpfcp-watermark.image?",
+      "view_count": 3468,
+      "digg_count": 3,
+      "comment_count": 0,
+      "ctime": "1635994047",
+      "url": "https://juejin.cn/post/7026540580788240415"
+    },
+    {
+      "article_id": "6997671811026518030",
+      "title": "从零开始让你的 APP 增加即时通信功能",
+      "brief_content": "可能很多人谈到即时通信就望而却步，包括我之前也是一样，长链接、自动重连、保活、消息存储等等，感觉每个都是个大项目，一般我都是转头就去找第三方平台。",
+      "cover_image": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5852f1623a745c2af7ddc1c58073c64~tplv-k3u1fbpfcp-watermark.image",
+      "view_count": 4689,
+      "digg_count": 70,
+      "comment_count": 12,
+      "ctime": "1629272488",
+      "url": "https://juejin.cn/post/6997671811026518030"
     }
   ],
-  "updated_at": "2025-03-30T00:00:00.000Z"
+  "updated_at": "2026-04-01T09:32:24.401Z"
 }
