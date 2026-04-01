@@ -1,139 +1,155 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="zh-CN">
 <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>王晨彦</title>
-    <meta name="author" content="王晨彦">
-    <meta name="description" content="王晨彦">
-    <meta name="keywords" content="王晨彦">
-    <link rel="stylesheet" type="text/css" href="assets/css/vno.css">
-    <link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/c/font_4683713_1wfce8sw1xg.css">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王晨彦 | Android Developer</title>
+    <meta name="description" content="王晨彦 - Android开发工程师">
+    <meta name="keywords" content="王晨彦, Android Developer, 移动端开发, Kotlin, Java">
     <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
-
 <body>
-<span class="mobile btn-mobile-menu">
-        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
-        <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>
-</span>
-<header id="panel" class="panel-cover">
-    <div class="panel-main">
-        <div class="panel-main__inner panel-inverted">
-            <div class="panel-main__content">
-                <div class="ih-item circle effect right_to_left">
-                    <a>
-                        <div class="img">
-                            <img src="assets/img/avatar.jpg" alt="img"
-                                 class="js-avatar iUp profilepic">
-                        </div>
-                        <div class="info iUp">
-                            <div class="info-back">
-                                <h2>你好<br><br><b>彦祖</b></h2>
-                            </div>
-                        </div>
-                    </a>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">WCY</a>
+            <ul class="nav-links">
+                <li><a href="#about">关于</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#articles">文章</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobile-menu-btn">☰</div>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobile-nav">
+        <ul>
+            <li><a href="#about" class="mobile-nav-link">关于</a></li>
+            <li><a href="#projects" class="mobile-nav-link">项目</a></li>
+            <li><a href="#articles" class="mobile-nav-link">文章</a></li>
+            <li><a href="#contact" class="mobile-nav-link">联系</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="assets/img/avatar.jpg" alt="王晨彦" class="avatar">
+            <h1>王晨彦</h1>
+            <p class="subtitle">Android Developer</p>
+
+            <div class="tech-tags">
+                <span class="tech-tag">Android</span>
+                <span class="tech-tag">Kotlin</span>
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Jetpack</span>
+            </div>
+            <div class="cta-buttons">
+                <a href="https://github.com/wangchenyan" class="btn btn-primary" target="_blank">
+                    <span>📂</span> 查看 GitHub
+                </a>
+                <a href="https://juejin.cn/user/2313028193754168/posts" class="btn btn-secondary" target="_blank">
+                    <span>📝</span> 阅读博客
+                </a>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="repo-count">--</span>
+                    <span class="stat-label">Repositories</span>
                 </div>
-
-                <h1 class="panel-cover__title panel-title iUp">
-                    王晨彦
-                </h1>
-                <p class="panel-cover__subtitle panel-subtitle iUp">Android Developer</p>
-
-                <hr class="panel-cover__divider iUp"/>
-
-                <p id="description" class="panel-cover__description iUp">如何得与凉风约, 不共尘沙一并来!
-                    <br/>
-                    <strong>-「中牟道中」</strong>
-                </p>
-
-                <div class="navigation-wrapper iUp">
-                    <div>
-                        <nav class="cover-navigation cover-navigation--primary">
-                            <ul class="navigation">
-                                <li class="navigation__item">
-                                    <a href="https://juejin.cn/user/2313028193754168/posts"
-                                       class="blog-button" target="_blank">博客</a>
-                                </li>
-                                <li class="navigation__item">
-                                    <a href="https://github.com/wangchenyan"
-                                       class="blog-button" target="_blank">GitHub</a>
-                                </li>
-                                <li class="navigation__item" onclick="wechat()">
-                                    <a class="blog-button" target="_blank">微信</a>
-                                </li>
-                                <li class="navigation__item">
-                                    <a href="mailto:wangchenyan2015@foxmail.com"
-                                       class="blog-button" target="_blank">邮箱</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-
-                    <div class="iUp">
-                        <nav class="cover-navigation navigation--social">
-                            <ul class="navigation">
-                                <li class="navigation__item">
-                                    <a href="https://juejin.cn/user/2313028193754168/posts"
-                                       title="掘金" target="_blank">
-                                        <i class='social iconfont icon-juejin'></i>
-                                        <span class="label">掘金</span>
-                                    </a>
-                                </li>
-                                <li class="navigation__item">
-                                    <a href="https://github.com/wangchenyan"
-                                       title="GitHub" target="_blank">
-                                        <i class='social iconfont icon-github' style="font-size:22px;"></i>
-                                        <span class="label">GitHub</span>
-                                    </a>
-                                </li>
-                                <li class="navigation__item">
-                                    <a href="https://weibo.com/u/2671190123"
-                                       title="微博" target="_blank">
-                                        <i class='social iconfont icon-weibo' style="font-size:22px;"></i>
-                                        <span class="label">微博</span>
-                                    </a>
-                                </li>
-                                <li class="navigation__item" onclick="wechat()">
-                                    <a title="微信" target="_blank">
-                                        <i class='social iconfont icon-wechat' style="font-size:22px;"></i>
-                                        <span class="label">微信</span>
-                                    </a>
-                                </li>
-                                <li class="navigation__item">
-                                    <a href="mailto:wangchenyan2015@foxmail.com"
-                                       title="邮箱" target="_blank">
-                                        <i class='social iconfont icon-mail' style="font-size:22px;"></i>
-                                        <span class="label">邮箱</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="star-count">--</span>
+                    <span class="stat-label">Stars</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="article-count">--</span>
+                    <span class="stat-label">Articles</span>
                 </div>
             </div>
         </div>
-        <div class="panel-cover--overlay cover-slate"></div>
-    </div>
+    </section>
 
-    <div style="position:absolute;z-index:900;left:0px;right:0px;bottom:0px;text-align:center;">
-        <p style="color:white;font-size:14px;">
-            版权所有: 王晨彦 &nbsp;|&nbsp; © 2022-2025 All Copyright Reserved
-        </p>
-    </div>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">关于我</h2>
+        <div class="about-content">
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-name">Android</div>
+                    <div class="skill-level">10+ 年经验</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Kotlin</div>
+                    <div class="skill-level">主要开发语言</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Jetpack</div>
+                    <div class="skill-level">架构组件</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Flutter</div>
+                    <div class="skill-level">跨平台开发</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="remark iUp">
-        <p class="power">Powered By
-            <a href="https://github.com/features/actions" target="_blank"> GitHub Actions </a> And
-            <a href="https://hitokoto.cn/" target="_blank"> Hitokoto </a>
-        </p>
-    </div>
-</header>
-<script type="text/javascript" src="assets/js/main.js"></script>
-<script type="text/javascript" src="./assets/json/images.json?cb=getBingImages"></script>
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2 class="section-title">精选项目</h2>
+        <div class="projects-grid" id="projects-container">
+            <!-- Projects will be loaded from GitHub API -->
+            <div class="loading">加载中...</div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" class="section articles">
+        <h2 class="section-title">技术文章</h2>
+        <div class="articles-list" id="articles-container">
+            <!-- Articles will be loaded from juejin-articles.json -->
+            <div class="loading">加载中...</div>
+        </div>
+        <div class="articles-more">
+            <a href="https://juejin.cn/user/2313028193754168/posts" class="btn btn-outline" target="_blank">
+                查看更多文章 →
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">联系我</h2>
+        <div class="contact-links">
+            <a href="https://github.com/wangchenyan" class="contact-item" target="_blank">
+                <span>📂</span>
+                <span>GitHub</span>
+            </a>
+            <a href="https://juejin.cn/user/2313028193754168/posts" class="contact-item" target="_blank">
+                <span>📝</span>
+                <span>掘金</span>
+            </a>
+            <a href="mailto:wangchenyan2015@foxmail.com" class="contact-item">
+                <span>✉️</span>
+                <span>邮箱</span>
+            </a>
+            <a href="#" class="contact-item" onclick="showWechat()">
+                <span>💬</span>
+                <span>微信</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 王晨彦 | Built with ❤️ and Code</p>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
 </body>
 </html>

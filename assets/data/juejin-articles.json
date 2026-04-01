@@ -1,0 +1,40 @@
+{
+  "user_id": "2313028193754168",
+  "total_articles": 30,
+  "articles": [
+    {
+      "article_id": "123456789",
+      "title": "Android Jetpack Compose 入门指南",
+      "brief_content": "本文将带你了解 Jetpack Compose 的基础知识，包括声明式 UI、状态管理、布局系统等核心概念...",
+      "cover_image": "",
+      "view_count": 2500,
+      "digg_count": 128,
+      "comment_count": 32,
+      "ctime": "1711800000",
+      "url": "https://juejin.cn/post/123456789"
+    },
+    {
+      "article_id": "123456790",
+      "title": "Kotlin 协程实战：从入门到精通",
+      "brief_content": "协程是 Kotlin 中最强大的特性之一，本文将深入讲解协程的原理和在实际项目中的应用...",
+      "cover_image": "",
+      "view_count": 3200,
+      "digg_count": 156,
+      "comment_count": 45,
+      "ctime": "1711200000",
+      "url": "https://juejin.cn/post/123456790"
+    },
+    {
+      "article_id": "123456791",
+      "title": "Android 性能优化最佳实践",
+      "brief_content": "性能优化是 Android 开发中的重要环节，本文总结了常见的性能优化技巧和工具使用方法...",
+      "cover_image": "",
+      "view_count": 1800,
+      "digg_count": 89,
+      "comment_count": 23,
+      "ctime": "1710600000",
+      "url": "https://juejin.cn/post/123456791"
+    }
+  ],
+  "updated_at": "2025-03-30T00:00:00.000Z"
+}
