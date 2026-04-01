@@ -113,8 +113,8 @@ async function fetchJuejinArticles() {
 
         const stats = {
             user_id: JUEJIN_USER_ID,
-            total_articles: articles.length,
-            articles: articles.slice(0, 10),  // Keep top 10
+            total_articles: response.data.count,
+            articles: articles.slice(0, 10),
             updated_at: new Date().toISOString()
         };
 
@@ -123,7 +123,7 @@ async function fetchJuejinArticles() {
             JSON.stringify(stats, null, 2)
         );
 
-        console.log(`✅ Juejin articles saved: ${articles.length} articles`);
+        console.log(`✅ Juejin articles saved: ${response.data.count} articles`);
         return stats;
     } catch (error) {
         console.error('❌ Error fetching Juejin articles:', error.message);
