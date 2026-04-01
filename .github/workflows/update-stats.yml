@@ -4,8 +4,9 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 2 * * *"  # 每天凌晨2点运行
-  push:
-    branches: [ master ]
+
+permissions:
+  contents: write
 
 jobs:
   update-stats:
@@ -19,9 +20,6 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm install axios
-
       - name: Fetch GitHub and Juejin data
         run: node scripts/fetch-stats.js
         env:
@@ -33,7 +31,7 @@ jobs:
           git config --local user.email 'github-actions[bot]@users.noreply.github.com'
           git config --local user.name 'github-actions[bot]'
           git add assets/data/
-          git diff --staged --quiet || git commit -m '[bot] update stats and articles'
+          git diff --staged --quiet || git commit -m '[github-actions] Update stats and articles'
 
       - name: Push changes
         uses: ad-m/github-push-action@master

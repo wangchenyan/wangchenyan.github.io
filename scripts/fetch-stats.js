@@ -1,4 +1,3 @@
-const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
@@ -15,30 +14,35 @@ if (!fs.existsSync(DATA_DIR)) {
 async function fetchGitHubStats() {
     try {
         console.log('Fetching GitHub stats...');
-        
+
         const headers = {};
         if (process.env.GITHUB_TOKEN) {
-            headers.Authorization = `token ${process.env.GITHUB_TOKEN}`;
+            headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
         }
 
-        // Fetch user info
-        const userResponse = await axios.get(
+        headers.Accept = 'application/vnd.github+json';
+
+        const userResponse = await fetch(
             `https://api.github.com/users/${GITHUB_USERNAME}`,
             { headers }
         );
 
-        // Fetch all repos
-        const reposResponse = await axios.get(
-            `https://api.github.com/users/${GITHUB_USERNAME}/repos?per_page=100&sort=updated`,
+        if (userResponse.ok === false) {
+            throw new Error(`GitHub user request failed: ${userResponse.status}`);
+        }
+
+        const reposResponse = await fetch(
+            `https://api.github.com/users/${GITHUB_USERNAME}`,
             { headers }
         );
 
-        const repos = reposResponse.data;
-        
-        // Calculate total stars
+        if (reposResponse.ok === false) {
+            throw new Error(`GitHub repos request failed: ${reposResponse.status}`);
+        }
+
+        const userData = await userResponse.json();
+        const repos = await reposResponse.json();
         const totalStars = repos.reduce((acc, repo) => acc + repo.stargazers_count, 0);
-        
-        // Get top 6 repos by stars
         const topRepos = repos
             .sort((a, b) => b.stargazers_count - a.stargazers_count)
             .slice(0, 6)
@@ -55,9 +59,9 @@ async function fetchGitHubStats() {
 
         const stats = {
             username: GITHUB_USERNAME,
-            public_repos: userResponse.data.public_repos,
-            followers: userResponse.data.followers,
-            following: userResponse.data.following,
+            public_repos: userData.public_repos,
+            followers: userData.followers,
+            following: userData.following,
             total_stars: totalStars,
             top_repos: topRepos,
             updated_at: new Date().toISOString()
@@ -81,25 +85,31 @@ async function fetchJuejinArticles() {
     try {
         console.log('Fetching Juejin articles...');
 
-        const response = await axios.post(
+        const response = await fetch(
             'https://api.juejin.cn/content_api/v1/article/query_list',
             {
-                user_id: JUEJIN_USER_ID,
-                sort_type: 2,  // 2 = 最新
-                cursor: "0"
-            },
-            {
+                method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
-                }
+                },
+                body: JSON.stringify({
+                    user_id: JUEJIN_USER_ID,
+                    sort_type: 2,
+                    cursor: '0'
+                })
             }
         );
 
-        if (response.data.err_no !== 0) {
-            throw new Error(response.data.err_msg);
+        if (response.ok === false) {
+            throw new Error(`Juejin request failed: ${response.status}`);
         }
 
-        const articles = response.data.data.map(article => ({
+        const responseData = await response.json();
+        if (responseData.err_no !== 0) {
+            throw new Error(responseData.err_msg);
+        }
+
+        const articles = responseData.data.map(article => ({
             article_id: article.article_id,
             title: article.article_info.title,
             brief_content: article.article_info.brief_content,
@@ -113,7 +123,7 @@ async function fetchJuejinArticles() {
 
         const stats = {
             user_id: JUEJIN_USER_ID,
-            total_articles: response.data.count,
+            total_articles: responseData.count,
             articles: articles.slice(0, 10),
             updated_at: new Date().toISOString()
         };
@@ -123,11 +133,10 @@ async function fetchJuejinArticles() {
             JSON.stringify(stats, null, 2)
         );
 
-        console.log(`✅ Juejin articles saved: ${response.data.count} articles`);
+        console.log(`✅ Juejin articles saved: ${responseData.count} articles`);
         return stats;
     } catch (error) {
         console.error('❌ Error fetching Juejin articles:', error.message);
-        // Don't throw, just log error and continue
         return null;
     }
 }
@@ -135,14 +144,14 @@ async function fetchJuejinArticles() {
 // Main function
 async function main() {
     console.log('🚀 Starting data fetch...\n');
-    
+
     try {
         await fetchGitHubStats();
         console.log('');
-        
+
         await fetchJuejinArticles();
         console.log('');
-        
+
         console.log('✨ All data fetched successfully!');
     } catch (error) {
         console.error('❌ Failed to fetch data:', error.message);

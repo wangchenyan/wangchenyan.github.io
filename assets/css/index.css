@@ -35,6 +35,28 @@ body {
     background: var(--bg-primary);
 }
 
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    border: 0;
+    background: transparent;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 3px;
+}
+
+main {
+    display: block;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -86,6 +108,7 @@ nav {
     padding: var(--space-xs);
     border-radius: 8px;
     transition: background 0.3s;
+    color: var(--text-primary);
 }
 
 .mobile-menu:hover {
@@ -541,6 +564,7 @@ nav {
     border: 1px solid var(--border-color);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
     font-weight: 500;
+    cursor: pointer;
 }
 
 .contact-item:hover {
@@ -635,12 +659,21 @@ footer p {
     }
 
     .contact-links {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
         gap: var(--space-md);
     }
 
     .contact-item {
         padding: var(--space-sm) var(--space-md);
         font-size: 0.9rem;
+    }
+
+    .contact-links .contact-item:last-child {
+        grid-column: 1 / -1;
+        justify-self: stretch;
+        width: 100%;
     }
 }
 
@@ -663,6 +696,19 @@ footer p {
 
     .stat-label {
         margin: 0;
+    }
+
+    .contact-links {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-links .contact-item:last-child {
+        grid-column: auto;
+        justify-self: stretch;
+    }
+
+    .contact-item {
+        justify-content: center;
     }
 }
 

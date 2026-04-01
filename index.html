@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2563eb">
     <title>王晨彦 | Android Developer</title>
     <meta name="description" content="王晨彦 - Android开发工程师">
     <meta name="keywords" content="王晨彦, Android Developer, 移动端开发, Kotlin, Java">
@@ -12,7 +13,7 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav>
+    <nav aria-label="主导航">
         <div class="nav-container">
             <a href="#" class="logo">WCY</a>
             <ul class="nav-links">
@@ -21,12 +22,21 @@
                 <li><a href="#articles">文章</a></li>
                 <li><a href="#contact">联系</a></li>
             </ul>
-            <div class="mobile-menu" id="mobile-menu-btn">☰</div>
+            <button
+                type="button"
+                class="mobile-menu"
+                id="mobile-menu-btn"
+                aria-expanded="false"
+                aria-controls="mobile-nav"
+                aria-label="打开导航菜单"
+            >
+                ☰
+            </button>
         </div>
     </nav>
 
     <!-- Mobile Navigation -->
-    <div class="mobile-nav" id="mobile-nav">
+    <div class="mobile-nav" id="mobile-nav" aria-label="移动端导航">
         <ul>
             <li><a href="#about" class="mobile-nav-link">关于</a></li>
             <li><a href="#projects" class="mobile-nav-link">项目</a></li>
@@ -35,6 +45,7 @@
         </ul>
     </div>
 
+    <main>
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
@@ -50,14 +61,14 @@
                 <span class="tech-tag">Jetpack</span>
             </div>
             <div class="cta-buttons">
-                <a href="https://github.com/wangchenyan" class="btn btn-primary" target="_blank">
+                <a href="https://github.com/wangchenyan" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
                     <span>📂</span> 查看 GitHub
                 </a>
-                <a href="https://juejin.cn/user/2313028193754168/posts" class="btn btn-secondary" target="_blank">
+                <a href="https://juejin.cn/user/2313028193754168/posts" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
                     <span>📝</span> 阅读博客
                 </a>
             </div>
-            <div class="stats">
+            <div class="stats" aria-label="个人统计数据">
                 <div class="stat-item">
                     <span class="stat-number" id="repo-count">--</span>
                     <span class="stat-label">Repositories</span>
@@ -104,7 +115,7 @@
         <h2 class="section-title">精选项目</h2>
         <div class="projects-grid" id="projects-container">
             <!-- Projects will be loaded from GitHub API -->
-            <div class="loading">加载中...</div>
+            <div class="loading" role="status">加载中...</div>
         </div>
     </section>
 
@@ -113,10 +124,10 @@
         <h2 class="section-title">技术文章</h2>
         <div class="articles-list" id="articles-container">
             <!-- Articles will be loaded from juejin-articles.json -->
-            <div class="loading">加载中...</div>
+            <div class="loading" role="status">加载中...</div>
         </div>
         <div class="articles-more">
-            <a href="https://juejin.cn/user/2313028193754168/posts" class="btn btn-outline" target="_blank">
+            <a href="https://juejin.cn/user/2313028193754168/posts" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
                 查看更多文章 →
             </a>
         </div>
@@ -126,11 +137,11 @@
     <section id="contact" class="section">
         <h2 class="section-title">联系我</h2>
         <div class="contact-links">
-            <a href="https://github.com/wangchenyan" class="contact-item" target="_blank">
+            <a href="https://github.com/wangchenyan" class="contact-item" target="_blank" rel="noopener noreferrer">
                 <span>📂</span>
                 <span>GitHub</span>
             </a>
-            <a href="https://juejin.cn/user/2313028193754168/posts" class="contact-item" target="_blank">
+            <a href="https://juejin.cn/user/2313028193754168/posts" class="contact-item" target="_blank" rel="noopener noreferrer">
                 <span>📝</span>
                 <span>掘金</span>
             </a>
@@ -138,12 +149,13 @@
                 <span>✉️</span>
                 <span>邮箱</span>
             </a>
-            <a href="#" class="contact-item" onclick="showWechat()">
+            <button type="button" class="contact-item" id="wechat-btn">
                 <span>💬</span>
                 <span>微信</span>
-            </a>
+            </button>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer>
