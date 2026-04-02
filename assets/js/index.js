@@ -91,21 +91,29 @@ function formatDate(timestamp) {
 
 function renderArticleCard(article) {
     const articleUrl = safeUrl(article.url) || EXTERNAL_POSTS_URL;
+    const coverUrl = safeUrl(article.cover_image);
     const articleTitle = escapeHtml(article.title || '未命名文章');
     const articleSummary = escapeHtml(article.brief_content || '暂无摘要');
     const articleDate = article.date_text || formatDate(article.ctime);
 
     return `
         <a href="${articleUrl}" class="article-card" target="_blank" rel="${REL_ATTR}">
-            <div class="article-header">
-                <h3 class="article-title">${articleTitle}</h3>
-                <span class="article-date">${escapeHtml(articleDate)}</span>
-            </div>
-            <p class="article-summary">${articleSummary}</p>
-            <div class="article-meta">
-                <span>👁 ${normalizeNumber(article.view_count)}</span>
-                <span>👍 ${normalizeNumber(article.digg_count)}</span>
-                <span>💬 ${normalizeNumber(article.comment_count)}</span>
+            <div class="article-layout">
+                <div class="article-cover">
+                    ${coverUrl === '' ? '' : `<img src="${coverUrl}" alt="${articleTitle}" loading="lazy" referrerpolicy="no-referrer">`}
+                </div>
+                <div class="article-body">
+                    <div class="article-header">
+                        <h3 class="article-title">${articleTitle}</h3>
+                        <span class="article-date">${escapeHtml(articleDate)}</span>
+                    </div>
+                    <p class="article-summary">${articleSummary}</p>
+                    <div class="article-meta">
+                        <span>👁 ${normalizeNumber(article.view_count)}</span>
+                        <span>👍 ${normalizeNumber(article.digg_count)}</span>
+                        <span>💬 ${normalizeNumber(article.comment_count)}</span>
+                    </div>
+                </div>
             </div>
         </a>
     `;
