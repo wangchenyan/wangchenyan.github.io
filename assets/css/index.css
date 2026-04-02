@@ -303,7 +303,7 @@ nav {
 }
 
 .section {
-    padding: var(--space-4xl) var(--container-padding);
+    padding: var(--space-3xl) var(--container-padding);
     max-width: var(--container-max);
     margin: 0 auto;
 }
@@ -578,10 +578,9 @@ nav {
 }
 
 .contact-links {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: var(--space-lg);
-    flex-wrap: wrap;
     width: 100%;
     max-width: var(--section-content-max);
     margin: 0 auto;
@@ -590,6 +589,7 @@ nav {
 .contact-item {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: var(--space-sm);
     padding: var(--space-md) var(--space-xl);
     background: white;
@@ -700,9 +700,7 @@ footer p {
     }
 
     .contact-links {
-        display: grid;
-        grid-template-columns: repeat(2, max-content);
-        justify-content: center;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: var(--space-md);
     }
 
@@ -713,8 +711,6 @@ footer p {
 
     .contact-links .contact-item:last-child {
         grid-column: 1 / -1;
-        justify-self: stretch;
-        width: 100%;
     }
 }
 
@@ -753,11 +749,6 @@ footer p {
 
     .contact-links .contact-item:last-child {
         grid-column: auto;
-        justify-self: stretch;
-    }
-
-    .contact-item {
-        justify-content: center;
     }
 }
 
