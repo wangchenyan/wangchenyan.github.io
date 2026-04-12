@@ -19,7 +19,7 @@
       "name": "lrcview",
       "description": "Android beautiful draggable lyric view library",
       "stars": 719,
-      "forks": 120,
+      "forks": 119,
       "language": "Java",
       "html_url": "https://github.com/wangchenyan/lrcview",
       "homepage": "https://juejin.im/post/6844903759420588046",
@@ -66,5 +66,5 @@
       "updated_at": "2025-11-29T02:14:50Z"
     }
   ],
-  "updated_at": "2026-04-11T04:15:47.362Z"
+  "updated_at": "2026-04-12T04:43:00.502Z"
 }
