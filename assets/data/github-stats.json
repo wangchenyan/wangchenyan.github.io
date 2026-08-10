@@ -3,7 +3,7 @@
   "public_repos": 40,
   "followers": 256,
   "following": 9,
-  "total_stars": 4739,
+  "total_stars": 4738,
   "top_repos": [
     {
       "name": "ponymusic",
@@ -48,12 +48,12 @@
     {
       "name": "html-text",
       "description": "Android RichText 富文本解析器，支持网络图片，图片和链接点击事件",
-      "stars": 197,
+      "stars": 196,
       "forks": 38,
       "language": "Java",
       "html_url": "https://github.com/wangchenyan/html-text",
       "homepage": "https://juejin.im/post/6844903759424798728",
-      "updated_at": "2026-07-07T03:14:10Z"
+      "updated_at": "2026-08-09T08:46:30Z"
     },
     {
       "name": "slidingclose",
@@ -66,5 +66,5 @@
       "updated_at": "2025-11-29T02:14:50Z"
     }
   ],
-  "updated_at": "2026-08-09T03:26:24.217Z"
+  "updated_at": "2026-08-10T03:46:30.694Z"
 }
