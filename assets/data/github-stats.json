@@ -29,7 +29,7 @@
       "name": "ponyexpress",
       "description": "Android express app use zxing&volley&gson&material design",
       "stars": 274,
-      "forks": 117,
+      "forks": 118,
       "language": "Java",
       "html_url": "https://github.com/wangchenyan/ponyexpress",
       "homepage": "https://juejin.im/post/6844903759059894280",
@@ -66,5 +66,5 @@
       "updated_at": "2025-11-29T02:14:50Z"
     }
   ],
-  "updated_at": "2026-09-17T06:59:23.529Z"
+  "updated_at": "2026-09-18T06:55:50.960Z"
 }
