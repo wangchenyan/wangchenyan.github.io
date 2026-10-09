@@ -1,19 +1,19 @@
 {
   "username": "wangchenyan",
   "public_repos": 40,
-  "followers": 257,
+  "followers": 258,
   "following": 9,
-  "total_stars": 4743,
+  "total_stars": 4746,
   "top_repos": [
     {
       "name": "ponymusic",
       "description": "An Android online music player like NetEase Cloud Music, based on Media3 and ExoPlayer",
-      "stars": 2852,
+      "stars": 2854,
       "forks": 505,
       "language": "Kotlin",
       "html_url": "https://github.com/wangchenyan/ponymusic",
       "homepage": "https://juejin.cn/post/7294072229003952143",
-      "updated_at": "2026-10-06T10:12:06Z"
+      "updated_at": "2026-10-09T03:42:25Z"
     },
     {
       "name": "lrcview",
@@ -48,12 +48,12 @@
     {
       "name": "html-text",
       "description": "Android RichText 富文本解析器，支持网络图片，图片和链接点击事件",
-      "stars": 196,
+      "stars": 197,
       "forks": 38,
       "language": "Java",
       "html_url": "https://github.com/wangchenyan/html-text",
       "homepage": "https://juejin.im/post/6844903759424798728",
-      "updated_at": "2026-08-09T08:46:30Z"
+      "updated_at": "2026-10-09T06:37:00Z"
     },
     {
       "name": "slidingclose",
@@ -66,5 +66,5 @@
       "updated_at": "2025-11-29T02:14:50Z"
     }
   ],
-  "updated_at": "2026-10-08T08:15:23.098Z"
+  "updated_at": "2026-10-09T08:17:10.703Z"
 }
