@@ -3,7 +3,7 @@
   "public_repos": 40,
   "followers": 258,
   "following": 9,
-  "total_stars": 4744,
+  "total_stars": 4745,
   "top_repos": [
     {
       "name": "ponymusic",
@@ -13,7 +13,7 @@
       "language": "Kotlin",
       "html_url": "https://github.com/wangchenyan/ponymusic",
       "homepage": "https://juejin.cn/post/7294072229003952143",
-      "updated_at": "2026-10-16T14:39:45Z"
+      "updated_at": "2026-10-18T13:44:46Z"
     },
     {
       "name": "lrcview",
@@ -38,12 +38,12 @@
     {
       "name": "wan-harmony",
       "description": "鸿蒙版「玩 Android」客户端",
-      "stars": 250,
+      "stars": 251,
       "forks": 54,
       "language": "TypeScript",
       "html_url": "https://github.com/wangchenyan/wan-harmony",
       "homepage": "",
-      "updated_at": "2026-09-16T07:59:19Z"
+      "updated_at": "2026-10-19T06:47:35Z"
     },
     {
       "name": "html-text",
@@ -66,5 +66,5 @@
       "updated_at": "2025-11-29T02:14:50Z"
     }
   ],
-  "updated_at": "2026-10-18T06:51:27.287Z"
+  "updated_at": "2026-10-19T07:10:59.408Z"
 }
