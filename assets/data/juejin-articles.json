@@ -6,7 +6,7 @@
       "article_id": "7410420138309894159",
       "title": "【HarmonyOS】听说你还在用 router 做页面路由？",
       "brief_content": "我们知道鸿蒙上使用 router 模块进行页面跳转，转眼几个月过去了，router 已经被标记为「不推荐」了，官方推荐使用 Navigation，今天和大家一起学习一下。",
-      "cover_image": "https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/68196b0345f74648b19222cc59836257~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg546L5pmo5b2m:q75.awebp?rk3s=f64ab15b&x-expires=1793429112&x-signature=12F%2FB%2BT5UlgkFrBSuxXb6B01VKY%3D",
+      "cover_image": "https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/68196b0345f74648b19222cc59836257~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg546L5pmo5b2m:q75.awebp?rk3s=f64ab15b&x-expires=1793516996&x-signature=GGHBAe9pKeqX9YPzd6I%2FwopGd8s%3D",
       "view_count": 3637,
       "digg_count": 29,
       "comment_count": 2,
@@ -29,7 +29,7 @@
       "title": "鸿蒙开发入门之让 httpRequest 支持 Cookie",
       "brief_content": "要说最近前端技术圈什么最🔥，那一定非「遥遥领先」的 Harmony OS 莫属，本着对新技术的追求精神，咱们也来尝试一下。思来想去，决定用鸿蒙重写一下之前的Compose 版本「玩Android」。",
       "cover_image": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cccf8610794d4e21931392bd6e4db2cf~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=641&h=640&s=47134&e=png&b=231816",
-      "view_count": 2106,
+      "view_count": 2107,
       "digg_count": 12,
       "comment_count": 12,
       "ctime": "1703674534",
@@ -39,8 +39,8 @@
       "article_id": "7294072229003952143",
       "title": "重生！入门级开源音乐播放器APP —— 波尼音乐",
       "brief_content": "不知道是否还有人记得，7年前的那个 「Android开源在线音乐播放器——波尼音乐」？在网络上找到了一个百度开放的在线音乐 API，勉强实现了本地 + 网络播放能力。",
-      "cover_image": "https://p3-juejin-sign.byteimg.com/tos-cn-i-k3u1fbpfcp/742f899132c34b3db4f1bc3ced32ff62~tplv-k3u1fbpfcp-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg546L5pmo5b2m:q75.awebp?rk3s=f64ab15b&x-expires=1793429112&x-signature=FuAGH8O3ZbDr%2F9k8%2FF0gYr7oWAg%3D",
-      "view_count": 18993,
+      "cover_image": "https://p3-juejin-sign.byteimg.com/tos-cn-i-k3u1fbpfcp/742f899132c34b3db4f1bc3ced32ff62~tplv-k3u1fbpfcp-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg546L5pmo5b2m:q75.awebp?rk3s=f64ab15b&x-expires=1793516996&x-signature=%2Bpmz7lzmhF8%2FQPM%2B1XB7JzWDv1c%3D",
+      "view_count": 18994,
       "digg_count": 83,
       "comment_count": 44,
       "ctime": "1698312963",
@@ -113,5 +113,5 @@
       "url": "https://juejin.cn/post/6997671811026518030"
     }
   ],
-  "updated_at": "2026-10-24T06:45:12.400Z"
+  "updated_at": "2026-10-25T07:09:56.855Z"
 }
