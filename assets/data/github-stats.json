@@ -8,22 +8,22 @@
     {
       "name": "ponymusic",
       "description": "An Android online music player like NetEase Cloud Music, based on Media3 and ExoPlayer",
-      "stars": 2853,
+      "stars": 2854,
       "forks": 506,
       "language": "Kotlin",
       "html_url": "https://github.com/wangchenyan/ponymusic",
       "homepage": "https://juejin.cn/post/7294072229003952143",
-      "updated_at": "2026-10-24T00:00:33Z"
+      "updated_at": "2026-10-27T07:17:33Z"
     },
     {
       "name": "lrcview",
       "description": "Android beautiful draggable lyric view library",
-      "stars": 716,
+      "stars": 715,
       "forks": 119,
       "language": "Java",
       "html_url": "https://github.com/wangchenyan/lrcview",
       "homepage": "https://juejin.im/post/6844903759420588046",
-      "updated_at": "2026-09-02T02:17:23Z"
+      "updated_at": "2026-10-28T03:02:02Z"
     },
     {
       "name": "ponyexpress",
@@ -66,5 +66,5 @@
       "updated_at": "2025-11-29T02:14:50Z"
     }
   ],
-  "updated_at": "2026-10-27T07:09:33.720Z"
+  "updated_at": "2026-10-28T07:48:11.676Z"
 }
