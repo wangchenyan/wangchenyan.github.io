@@ -3,7 +3,7 @@
   "public_repos": 40,
   "followers": 259,
   "following": 9,
-  "total_stars": 4745,
+  "total_stars": 4744,
   "top_repos": [
     {
       "name": "ponymusic",
@@ -18,12 +18,12 @@
     {
       "name": "lrcview",
       "description": "Android beautiful draggable lyric view library",
-      "stars": 714,
+      "stars": 713,
       "forks": 119,
       "language": "Java",
       "html_url": "https://github.com/wangchenyan/lrcview",
       "homepage": "https://juejin.im/post/6844903759420588046",
-      "updated_at": "2026-10-30T12:09:07Z"
+      "updated_at": "2026-11-12T03:52:59Z"
     },
     {
       "name": "ponyexpress",
@@ -66,5 +66,5 @@
       "updated_at": "2025-11-29T02:14:50Z"
     }
   ],
-  "updated_at": "2026-11-11T08:42:44.370Z"
+  "updated_at": "2026-11-12T09:03:19.948Z"
 }
