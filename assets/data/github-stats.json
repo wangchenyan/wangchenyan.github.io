@@ -3,17 +3,17 @@
   "public_repos": 40,
   "followers": 259,
   "following": 9,
-  "total_stars": 4742,
+  "total_stars": 4743,
   "top_repos": [
     {
       "name": "ponymusic",
       "description": "An Android online music player like NetEase Cloud Music, based on Media3 and ExoPlayer",
-      "stars": 2854,
+      "stars": 2855,
       "forks": 502,
       "language": "Kotlin",
       "html_url": "https://github.com/wangchenyan/ponymusic",
       "homepage": "https://juejin.cn/post/7294072229003952143",
-      "updated_at": "2026-11-20T15:36:57Z"
+      "updated_at": "2026-11-24T20:32:59Z"
     },
     {
       "name": "lrcview",
@@ -66,5 +66,5 @@
       "updated_at": "2025-11-29T02:14:50Z"
     }
   ],
-  "updated_at": "2026-11-24T11:53:36.000Z"
+  "updated_at": "2026-11-25T10:45:22.341Z"
 }
